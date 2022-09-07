@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo/d20.png">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--ICONS JS-->
+    <script src="https://kit.fontawesome.com/3d292b66df.js" crossorigin="anonymous"></script>
+
+    <title>Fate</title>
+  </head>
+  <body class="index">
+    <!-- <i class="fas fa-phone"></i> emotki-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo/d20.png" width="30" height="30" alt=" | Dice roller | ">
+                </a>
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="normal.html" title="Dice"> Dice </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="vampire.html" title="Vampire"> Vampire </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" title="Star Wars"> Star Wars </a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" title="Genesys"> Genesys </a> 
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="fate.html" title="Fate"> Fate </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+      <img src="images/banner/fate.png" class="banner" alt="banner dice roller" width="100%" height="auto" >
+    </header>
+    <section class="fate">
+      <br />
+      <hr >
+      <div class="container fate">
+          <div class="d-flex justify-content-center">
+              <form action="">
+                  <table class="fate">
+                      <tr>
+                          <td class="fate_left"> Dice Pool </td>
+                          <td class="fate_right"><input type="number" id="Dice_pool" value="4" readonly></td>
+                      </tr>
+                      <tr>
+                          <td class="fate_left"> Moddifier </td>
+                          <td class="fate_right"><input type="number" id="Hunger" value="0"></td>
+                      </tr>
+                  </table>
+              </form>
+          </div>
+      </div>
+      <br />
+      <div class="d-flex justify-content-center">
+          <input type="Submit" id="Roll" class="fate_button" value=" Roll "></button>
+      </div>
+      <br />
+      <br />
+  </section>
+  <div>
+    <div id="fate"></div>
+  </div>
+    
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="js/fate.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    
+  </body>
+</html>
